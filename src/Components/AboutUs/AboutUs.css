@@ -1,0 +1,28 @@
+/*About Us Tab*/
+.about-container {
+    background-color: #f0f0f0; /* Set your desired background color */
+    padding: 20px; /* Set padding as needed */
+    border: 1px solid #ccc; /* Add a border for the box */
+    display: inline-block; /* Display as an inline block to wrap content */
+    width: 500px;
+    height: 400px auto;
+    margin-top: 20px;
+  }
+
+.about-container h2 {
+    font-family: "Rubiks", sans-serif;
+    font-size: 36;
+    font-weight: 700;
+    color: #3057BA;
+}
+
+.about-container p {
+    font-family: "Segoe UI", sans-serif; /* Set the font family */
+    font-size: 20; /* Set the font size */
+    color: #333; /* Set the text color */
+}
+
+
+
+  
+

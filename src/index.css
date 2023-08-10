@@ -1,0 +1,65 @@
+body {
+    background-image: linear-gradient(to bottom, #ADD8E6, #3c88c7);
+    padding: 20px;
+    margin: 0;
+    background-repeat: no-repeat; /* Prevent background from repeating */
+    background-attachment: fixed; /* Keep the background fixed while the content scrolls */
+}
+
+h1,h2 {
+    color: #3057BA;
+}
+
+
+
+ul.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+}
+
+  
+
+ul.header {
+    background-color: #ffffff;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0; /* Set the left position to 0 to cover the entire width */
+    width: 100%;
+    margin: 0; /* Remove any default margin */
+    z-index: 999; /* Add z-index to ensure the header appears above other content */
+}
+  
+  
+ul.header li a {
+    font-family: "Rubik", sans-serif;
+    color: #111;
+    font-weight: lighter;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+
+
+  
+ul.header li a.active::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #0099FF;
+}
+
+
+
+  
+
+
+
+
