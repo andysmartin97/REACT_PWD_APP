@@ -1,6 +1,19 @@
-# Getting Started with Create React App
+# Paradise Drinking Water Using React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# Project Oveview
+
+Using a public website Paradise Drinking Water, My project aimed to improve user experience and overhaul the web site design to a modern web app.
+
+## Project Status
+
+Project completed for the course.
+
+
+
+
+
 
 ## Available Scripts
 
