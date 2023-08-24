@@ -1,0 +1,66 @@
+.ContactUs-Container p,
+.ContactUs-Container h3,
+.ContactUs-Container h5 {
+    color: #111;
+}
+
+.ContactUs-Container {
+   
+    background-color: #3057BA;
+    height: 50vh;
+    margin-top:-25px ;
+
+
+}
+
+
+
+.ContactBoxes-Container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+
+}
+
+
+.Contact-Box {
+
+
+    background-color: #ffffffc2;
+    backdrop-filter: blur(10px); /* Apply the blur effect */
+    border-radius: 25px;
+    box-shadow: 5px 5px 20px black;
+    
+    min-width: 1000px;
+    max-height: 500px;
+
+    margin-right: 100px;
+    margin-left: 100px;
+
+    margin-top: 50px;
+  
+}
+
+
+.Contact-Box h3{
+    font-size: 30px;
+
+}
+
+.Contact-Box h3,
+.Contact-Box h5 {
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+    color: #3057BA;
+}
+
+.Contact-Box p {
+    padding-left: 100px;
+    padding-bottom: 25px;
+    line-height: 30px;
+}
+
+
+

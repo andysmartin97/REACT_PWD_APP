@@ -1,0 +1,116 @@
+.WaterProducts-Container h3,
+.WaterProducts-Container h4,
+.WaterProducts-Container p {
+    color: #fff;
+}
+
+.WaterProducts-Container {
+    background:
+    linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), 
+    url('./BackgroundWater01.jpg');
+    background-attachment: fixed;
+    height: 95vh;
+}
+
+.WaterPic-Container img {
+    height: 249px;
+    width: 207px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+
+.WaterProducts-Container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Product-ContainerRow01 {
+    display: flex;
+    flex-direction: row;
+    
+
+    backdrop-filter: blur(10px); /* Apply the blur effect */
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px black;
+
+    background-color: #0000006e;
+
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+
+}
+
+.Product-ContainerRow02 {
+    backdrop-filter: blur(10px); /* Apply the blur effect */
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px black;
+
+    background-color: #0000006e;
+
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+.WaterDesc-Container{
+    max-width: 400px;
+    
+}
+
+
+
+
+
+.Water-Row01 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.Water-Row02 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.WaterDesc-Container h3{
+    font-size: 28px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+  
+
+}
+
+.WaterDesc-Container h4{
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+}
+
+.WaterDesc-Container p{
+    padding-right: 30px;
+   
+}
+
+
+
+
+
+
+.WaterPic-Container {
+
+}
+
+
+

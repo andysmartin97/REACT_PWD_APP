@@ -1,55 +1,11 @@
 /*Home Tab*/
-.home-container {
-    background-image: url('./water_first_background.jpg'); /* Path to your image */
-    display:-webkit-flex;
-    flex-direction: column;
-    background-repeat: no-repeat; /* Prevent background from repeating */
-    padding: 20px;
-    height: 700px;
-    width: 100% auto;
+.Home-Container {
+ 
   }
 
 
 /* title container*/
-.title-container {
-    background-color: #f0f0f0; /* Set your desired background color */
-    padding: 20px; /* Set padding as needed */
-    border: 1px solid #ccc; /* Add a border for the box */
-    width: 380px ; 
-}
-  
-.title-container h2 {
-    margin: 0; /* Remove margin from h2 */
-    font-family: "Rubik", sans-serif;
-    font-size: 34;
-    font-weight: 500;
-}
 
-.title-container h1 {
-    margin: 0; /* Remove margin from h1 */
-    font-family: "Rubik", sans-serif;
-    font-size: 82;
-    font-weight: 700;
- }
 
 
 /*Intro Container*/
-.intro-container h3{
-    font-family: "Rubiks", sans-serif;
-    font-size: 36;
-    font-weight: 700;
-    color: #3057BA;
-}
-.intro-container p {
-    font-family: "Segoe UI", sans-serif; /* Set the font family */
-    font-size: 20; /* Set the font size */
-    color: #333; /* Set the text color */
-}
-.intro-container{
-    background-color: #f0f0f0; /* Set your desired background color */
-    padding: 20px; /* Set padding as needed */
-    border: 1px solid #ccc; /* Add a border for the box */
-    display: inline-block; /* Display as an inline block to wrap content */
-    width: 500px;
-    height: 400px auto;
-}

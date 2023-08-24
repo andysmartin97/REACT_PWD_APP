@@ -1,0 +1,46 @@
+
+.AboutUsSection-Container h4,
+.AboutUsSection-Container p {
+    color: #111;
+}
+
+.AboutUsSection-Container {
+    background-color: #3057BA;
+    height: 700px;
+
+
+}
+
+
+.AboutUsBoxes-Container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+.AboutBox {
+
+    background-color: #ffffffc2;
+    backdrop-filter: blur(10px); /* Apply the blur effect */
+    border-radius: 44px;
+    box-shadow: 5px 5px 20px black;
+
+    max-width: 420px;
+
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.AboutBox p {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.AboutBox img {
+    margin-left: 70px;
+    margin-top: 20px;
+}

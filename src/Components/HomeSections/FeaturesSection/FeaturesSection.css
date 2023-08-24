@@ -1,0 +1,40 @@
+.FeaturesSection-Container h3,
+.FeaturesSection-Container p {
+    color: #111;
+    text-align: center;
+}
+
+.FeaturesSection-Container{
+    background-color: #D8D7D7;
+    height: 700px;
+}
+
+.FeaturesBoxes-Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.FeaturesBox {
+    
+
+    max-width: 400px;
+
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 150px;
+}
+
+.FeaturesBox p {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.FeaturesBox h3 {
+    
+}
+
+.FeaturesBox img {
+    margin-left: 110px;
+    margin-top: 20px;
+}

@@ -1,13 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Main from "./Main";
 import "./index.css";
-import "./Components/Home/Home.css"
-import "./Components/AboutUs/AboutUs.css"
-import "./Components/ContactUs/ContactUs.css"
-
+import "./Components/App/App";
+import App from "./Components/App/App";
+import "./reset.css";
  
-ReactDOM.render(
-  <Main/>, 
-  document.getElementById("root")
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
+

@@ -1,0 +1,37 @@
+.TestimonialSection-Container q, .TestimonialSection-Container p {
+    color: #111;
+}
+
+.TestimonialSection-Container {
+    background-color: #D8D7D7;
+    height: 50vh;
+}
+
+
+.TestimonialBoxes-Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Testimonial-Box {
+
+    max-width: 500px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 125px;
+
+}
+
+
+.Testimonial-Box q {
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.Testimonial-Box p {
+    color: #0A71F5;
+    font-weight: 600;
+}
+
